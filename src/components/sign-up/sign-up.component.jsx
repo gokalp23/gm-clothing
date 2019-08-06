@@ -20,6 +20,7 @@ class SignUp extends React.Component {
         }
     }
 
+    //Submit Data
     doSubmit = async event => {
         event.preventDefault();
 
@@ -50,6 +51,7 @@ class SignUp extends React.Component {
         }
     }
 
+    //Handle Change
     doChange = event => {
         const { name, value } = event.target;
 
